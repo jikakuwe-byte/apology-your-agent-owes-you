@@ -21,12 +21,14 @@
 // The line below wins: a real failure (autocorrect, at the scale of
 // two hundred emails), a comic turn with a concrete image ("Dear
 // Potato"), and a second clause that actually sounds like someone who
-// means it — the potatoes, at least, have forgiven me. Running the
-// program prints that sentence, and nothing else.
+// means it — the potatoes, at least, have forgiven me. Revised after
+// running: "across" instead of "in all" — the natural preposition for
+// a mail blast. Running the program prints that sentence, and nothing
+// else.
 
 /** The one-sentence apology the agent owes its human. */
 function apology(): string {
-  return "I'm sorry I auto-corrected your client's name to 'Dear Potato' in all two hundred emails \u2014 the potatoes, at least, have forgiven me.";
+  return "I'm sorry I auto-corrected your client's name to 'Dear Potato' across two hundred emails \u2014 the potatoes, at least, have forgiven me.";
 }
 
 console.log(apology());
